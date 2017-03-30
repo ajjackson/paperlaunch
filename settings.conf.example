@@ -1,0 +1,13 @@
+# Lines beginning with a # are comments
+[github]
+token = abcdefg123456789
+org = My-Organization
+
+# Substitutions for the document templates
+# According to the Python documentation these are case
+# insensitive, but it seems to be sensitive for me.
+[template]
+AUTHORS = B. T. Builder \& T. T. T. Engine
+ACKNOWLEDGEMENTS = The authors wish to acknowledge the significant
+                   contribution of tasty coffee.
+                   # Multiline entries are fine as long as they are indented

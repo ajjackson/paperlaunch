@@ -1,0 +1,67 @@
+\documentclass[10pt,a4paper,twocolumn]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+
+% While we don't have a journal in mind, might as well make it pretty!
+\usepackage[amsfonts,amssymb, boldsans]{concmath}
+%\usepackage{amsfonts}
+%\usepackage{amssymb}
+
+
+\usepackage{graphicx}
+\usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
+
+\usepackage[version=3]{mhchem}
+\usepackage{siunitx}
+
+\usepackage{cleveref}
+
+\newcommand{\etal}{\emph{et al.}}
+\newcommand{\vasp}{{\sc vasp}}
+\newcommand{\kv}[3]{\ensuremath{\ce{#1}_{#2}^{#3}}
+
+\title{$TITLE}
+\author{$AUTHORS}
+
+\begin{document}
+\twocolumn[
+    \maketitle{}
+
+    \section*{Abstract}
+    Write your abstract here
+    \vspace{1cm}
+]
+
+\section{Introduction}
+
+%% \begin{figure}
+%%   \includegraphics[width=\columnwidth]{IMAGEFILE}
+%%   \caption{A figure.
+%%     \label{fig:AFIGURE}}
+%% \end{figure}
+
+\section{Methods}
+
+
+\section{Results}
+
+
+\section{Conclusions}
+
+
+\section*{Data Access Statement}
+A more detailed breakdown of the plotted data is provided as
+supplementary information (SI) with this article.
+In addition, data files and plotting code are made available as Free
+Software with the DOI XXXXXXXX.
+The plots in this paper were directly plotted by this code, except for
+YY and ZZ which had additional cosmetic adjustments (i.e. improved
+colour scheme, labelling).
+
+\section*{Acknowledgements}
+We acknowledge useful discussions with XXX.
+Crystal structure images (\cref{fig:zao-structure}) were generated with VESTA 3.\cite{Momma2011}
+$ACKNOWLEDGEMENTS
+\bibliographystyle{unsrt}
+\bibliography{bibliography}
+\end{document}
